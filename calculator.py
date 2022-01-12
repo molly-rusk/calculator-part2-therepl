@@ -56,13 +56,7 @@ while True:
 
     elif mathSymbol == "mod":
         answer = mod(float(num1), float(num2))
-
-    elif mathSymbol == "x+":
-        answer = add_mult(float(num1), float(num2), float(num3))
-
-    elif mathSymbol == "cubes+":
-        answer = add_cubes(float(num1), float(num2))
-
+        
     else:
         answer = "Please enter an arithmetic symbol followed by two integers."
 
